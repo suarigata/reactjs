@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Header({children}){
+export default function Header({children}){ // children propriedade automática com o conteudo da tag
     return (
         <header>
             <h1>{children}</h1>
